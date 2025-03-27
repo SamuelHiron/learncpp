@@ -3,7 +3,7 @@
 # Chapter 0 Configs Done
 GCC options
 ```
--lfmt -ggdb -pedantic-errors -Wall -Weffc++ -Wextra -Wconversion -Wsign-conversion -Werror -std=c++23
+g++ -lfmt -ggdb -pedantic-errors -Wall -Weffc++ -Wextra -Wconversion -Wsign-conversion -Werror -std=c++23
 -ggdb for debug
 -O0 by default (no optimization)
 -pedantic-errors disable compiler extension (for portable)
@@ -16,8 +16,11 @@ GCC options
 VSCode options see chapter 0
 
 # chapter 1: C++ Basics
+When writing programs, add a few lines or a function, compile, resolve any errors, and make sure it works. Don’t wait until you’ve written an entire program before compiling it for the first time!
 
+Focus on getting your code working. Once you are sure you are going to keep some bit of code, then you can spend time removing (or commenting out) temporary/debugging code, adding comments, handling error cases, formatting your code, ensuring best practices are followed, removing redundant logic, etc…
 
+First-draft programs are often messy and imperfect. Most code requires cleanup and refinement to get to great!
 
 # chapter 2: C++ Basics: Functions and Files
 
